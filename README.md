@@ -32,7 +32,7 @@ UXP 外掛則在 Creative Cloud Desktop 內解除安裝。
 ```text
 node test_geometry.js
 tools\windows\SequenceWheelHelper.exe --self-test
-release\SequenceWheel-0.6.0\SequenceWheel-Windows-Setup.exe --self-test
+release\SequenceWheel-0.6.1\SequenceWheel-Windows-Setup.exe --self-test
 ```
 
 ## 技術限制
