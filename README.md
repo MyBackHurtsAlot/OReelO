@@ -1,4 +1,4 @@
-# OReelO 0.6.0
+# OReelO 0.6.1
 
 Premiere Pro 25.6 以上版本的全域圓盤工具。
 
