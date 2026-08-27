@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="geometry.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <div>
+          <h1>Sequence Wheel</h1>
+          <p id="status">介面已載入，正在連接 Premiere…</p>
+          <p id="helper-status">v0.6.0 背景 Helper：正在連線…</p>
+        </div>
+        <button id="refresh" type="button">同步</button>
+      </div>
+
+      <div class="templates">
+        <div class="section-header">
+          <h2>常用 Graphic Templates（轉盤外圈）</h2>
+          <div class="template-actions">
+            <button id="browse-installed" type="button">My Templates</button>
+            <button id="add-template" type="button">選擇檔案</button>
+          </div>
+        </div>
+        <div id="installed-picker" hidden>
+          <input id="template-search" type="text" placeholder="搜尋 My Templates" />
+          <div id="installed-list"></div>
+        </div>
+        <div id="template-list"></div>
+      </div>
+
+      <div id="pad" class="pad">
+        <div class="hint">
+          <h2>在這裡按住右鍵</h2>
+          <p>右鍵：Sequence　Shift＋右鍵：模板</p>
+        </div>
+      </div>
+
+      <div class="known">
+        <h2>本次工作階段已識別的 Timeline</h2>
+        <div id="known-list"></div>
+      </div>
+    </div>
+
+    <div id="wheel" class="wheel" hidden>
+      <div id="wheel-items"></div>
+      <div class="wheel-center">放開<br />切換</div>
+    </div>
+  </body>
+</html>

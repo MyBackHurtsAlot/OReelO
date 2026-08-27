@@ -1,0 +1,10 @@
+# Build and release output
+/release/
+*.exe
+*.ccx
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+*.log
+
