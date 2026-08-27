@@ -11,7 +11,7 @@ Premiere Pro 25.6 以上版本的全域圓盤工具。
 
 UXP Developer Tools 只供開發，正式使用不必開著它。
 
-Windows 使用者請從 [GitHub Releases](https://github.com/MyBackHurtsAlot/SequenceWheel/releases) 下載最新版 ZIP，執行其中的 `SequenceWheel-Windows-Setup.exe` 一次，然後在 Creative Cloud Desktop 確認安裝 `SequenceWheel.ccx`。安裝程式會把 Helper 放在使用者的 LocalAppData、登記登入後自動啟動，並立即在背景啟動。以後登入 Windows 後直接開 Premiere 即可。
+Windows 使用者請從 [GitHub Releases](https://github.com/MyBackHurtsAlot/SequenceWheel/releases) 下載最新版 ZIP，執行其中的 `OReelO-Windows-Setup.exe` 一次，然後在 Creative Cloud Desktop 確認安裝 `OReelO.ccx`。安裝程式會把 Helper 放在使用者的 LocalAppData、登記登入後自動啟動，並立即在背景啟動。以後登入 Windows 後直接開 Premiere 即可。
 
 第一次安裝後，請在 Premiere 開啟一次「視窗 > UXP Plugins > OReelO」，並把面板停駐在工作區。Premiere 會隨工作區恢復面板；Helper 不需要可見視窗。
 
@@ -22,7 +22,7 @@ macOS 使用相同的 UXP `.ccx`，但全域滑鼠 Helper 必須另外取得「�
 在命令提示字元執行：
 
 ```text
-SequenceWheel-Windows-Setup.exe --uninstall
+OReelO-Windows-Setup.exe --uninstall
 ```
 
 UXP 外掛則在 Creative Cloud Desktop 內解除安裝。
@@ -32,7 +32,7 @@ UXP 外掛則在 Creative Cloud Desktop 內解除安裝。
 ```text
 node test_geometry.js
 tools\windows\SequenceWheelHelper.exe --self-test
-release\SequenceWheel-0.6.1\SequenceWheel-Windows-Setup.exe --self-test
+release\OReelO-0.6.1\OReelO-Windows-Setup.exe --self-test
 ```
 
 ## 技術限制
