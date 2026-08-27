@@ -13,4 +13,4 @@ Copy-Item -LiteralPath $source -Destination $target -Force
 New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "SequenceWheelHelper" -Value ('"' + $target + '"') -PropertyType String -Force | Out-Null
 Start-Process -FilePath $target -WindowStyle Hidden
 
-Write-Host "Sequence Wheel Helper installed and started."
+Write-Host "OReelO Helper installed and started."

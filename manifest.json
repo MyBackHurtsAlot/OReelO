@@ -1,7 +1,7 @@
 {
   "manifestVersion": 5,
   "id": "com.prplugins.sequencewheel",
-  "name": "Sequence Wheel",
+  "name": "OReelO",
   "version": "0.6.0",
   "main": "index.html",
   "host": {
@@ -19,7 +19,7 @@
       "type": "panel",
       "id": "sequenceWheel",
       "label": {
-        "default": "Sequence Wheel"
+        "default": "OReelO"
       },
       "minimumSize": {
         "width": 280,

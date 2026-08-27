@@ -12,4 +12,4 @@ if (Test-Path -LiteralPath $installDir) {
     Remove-Item -LiteralPath $installDir -Recurse -Force
 }
 
-Write-Host "Sequence Wheel Helper uninstalled."
+Write-Host "OReelO Helper uninstalled."

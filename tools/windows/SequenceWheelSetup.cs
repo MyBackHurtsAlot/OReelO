@@ -28,19 +28,19 @@ namespace SequenceWheelSetup
                 if (args.Length > 0 && args[0].Equals("--uninstall", StringComparison.OrdinalIgnoreCase))
                 {
                     Uninstall();
-                    MessageBox.Show("背景 Helper 已移除。\nUXP 外掛可在 Creative Cloud Desktop 裡另外解除安裝。", "Sequence Wheel");
+                    MessageBox.Show("背景 Helper 已移除。\nUXP 外掛可在 Creative Cloud Desktop 裡另外解除安裝。", "OReelO");
                     return;
                 }
 
                 Install();
                 MessageBox.Show(
                     "背景 Helper 已安裝並設為登入後自動啟動。\n\n接著會開啟 SequenceWheel.ccx，請在 Creative Cloud Desktop 按下安裝。完成後直接開 Premiere Pro 即可，不需要開 UXP Developer Tools。",
-                    "Sequence Wheel 安裝完成");
+                    "OReelO 安裝完成");
                 OpenCcx();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("安裝失敗：\n" + ex.Message, "Sequence Wheel", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("安裝失敗：\n" + ex.Message, "OReelO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Environment.ExitCode = 1;
             }
         }
