@@ -3,7 +3,7 @@ const HOLD_MS = 190;
 const DEAD_ZONE = 42;
 const MAX_ITEMS = 10;
 const HELPER_URL = "http://127.0.0.1:17321";
-const BUILD_VERSION = "0.6.0";
+const BUILD_VERSION = "0.6.1";
 const PALETTE_COLORS = [
   "#374151", "#64748b", "#2563eb", "#0891b2", "#0f766e", "#16a34a",
   "#65a30d", "#ca8a04", "#ea580c", "#dc2626", "#db2777", "#9333ea"
