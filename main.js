@@ -3,7 +3,7 @@ const HOLD_MS = 190;
 const DEAD_ZONE = 42;
 const MAX_ITEMS = 10;
 const HELPER_URL = "http://127.0.0.1:17321";
-const BUILD_VERSION = "0.6.0";
+const BUILD_VERSION = "0.6.1";
 const PALETTE_COLORS = [
   "#374151", "#64748b", "#2563eb", "#0891b2", "#0f766e", "#16a34a",
   "#65a30d", "#ca8a04", "#ea580c", "#dc2626", "#db2777", "#9333ea"
@@ -39,7 +39,7 @@ const installedPicker = document.querySelector("#installed-picker");
 const installedList = document.querySelector("#installed-list");
 const templateSearch = document.querySelector("#template-search");
 
-console.log("[Sequence Wheel] main.js loaded");
+console.log("[OReelO] main.js loaded");
 
 function guidOf(sequence) {
   return String(sequence.guid);
@@ -274,7 +274,7 @@ async function pushHelperState(force) {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     setHelperConnected(true);
   } catch (error) {
-    console.error("[Sequence Wheel] Helper state failed", error);
+    console.error("[OReelO] Helper state failed", error);
     setHelperConnected(false, error);
   }
 }
@@ -329,7 +329,7 @@ async function pollHelperCommand() {
       if (target) await activateSequence(target);
     }
   } catch (error) {
-    console.error("[Sequence Wheel] Helper command failed", error);
+    console.error("[OReelO] Helper command failed", error);
     setHelperConnected(false, error);
   } finally {
     helperRequestRunning = false;

@@ -72,7 +72,7 @@ namespace SequenceWheelHelper
             running = true;
             Thread thread = new Thread(ListenLoop);
             thread.IsBackground = true;
-            thread.Name = "Sequence Wheel local bridge";
+            thread.Name = "OReelO local bridge";
             thread.Start();
         }
 
